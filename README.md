@@ -17,7 +17,7 @@ _This will take in numbers from the user and depending on the input will either 
 
 program takes a number from a user and returns a range of numbers from 0 to the chosen number
 input: 5
-output: 1 2 3 4 5
+output: 3
 
 program replaces 0 with Beep!
 input: 0

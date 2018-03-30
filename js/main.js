@@ -1,8 +1,13 @@
 // Business Logic
+var numberInput = parseInt($("#number-input").val());
+// var result =
+if (i = 0) {
+  $("#beep").show();
+}
 
-var beepBoop = function(number) {
-  return true;
-};
+// var beepBoop = function(number) {
+//   return true;
+// };
 
 
 
@@ -10,8 +15,9 @@ var beepBoop = function(number) {
 $(document).ready(function() {
   $("form#beep-boop").submit(function(event) {
     event.preventDefault();
-    var number = parseInt($("input#number").val());
-    var result = beepBoop(number);
-    $("#result").text(result);
+
+
+// var result = beepBoopfunction(numberInput);
+// $("result").text(result);
   });
 });
