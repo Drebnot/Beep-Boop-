@@ -1,13 +1,10 @@
-// Business Logic
+
 var numberInput = parseInt($("#number-input").val());
-// var result =
-if (i = 0) {
+
+if (numberInput = 0) {
   $("#beep").show();
 }
-
-// var beepBoop = function(number) {
-//   return true;
-// };
+conole.log(numberInput);
 
 
 
