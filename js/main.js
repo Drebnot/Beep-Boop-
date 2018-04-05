@@ -1,20 +1,16 @@
+function bunchaNumbers(number) {
+  var arrayNumbers = [];
+  for (var i = 0; i <= number; i++) {
+    arrayNumbers.push(i.toString());
 
-var numberInput = parseInt($("#number-input").val());
+  }
 
-if (numberInput = 0) {
-  $("#beep").show();
 }
-conole.log(numberInput);
-
-
-
 
 $(document).ready(function() {
   $("form#beep-boop").submit(function(event) {
     event.preventDefault();
 
 
-// var result = beepBoopfunction(numberInput);
-// $("result").text(result);
   });
 });
