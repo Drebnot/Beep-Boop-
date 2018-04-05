@@ -15,36 +15,17 @@ _This will take in numbers from the user and depending on the input will either 
 
 ##Specs
 
-program takes a number from a user and returns a range of numbers from 0 to the chosen number
-input: 5
-output: 3
-
-program replaces 0 with Beep!
-input: 0
-output: Beep!
-
-program replaces 1 with Boop!
-input: 1
-output: Boop!
-
-program replaces numbers that are divisible by three return "I'm sorry, Dave. I'm afraid I can't do that."
-input: 9
-output: "I'm sorry, Dave. I'm afraid I can't do that."
-
-program replaces any number that has 0 as any of its characters as Beep!
-input: 20
-output: Beep!
-
-program replaces any number that has 1 as any of its characters as Boop!
-input: 15
-output: Boop!
-
-divisible by three rule overrides Boop! rule and Boop! rule overrides Beep! rule.
-input: 30
-output: "I'm sorry, Dave. I'm afraid I can't do that."
-
-program allows user to be able to enter a new number and see new results over and over again.
-
+The program will take a number return a range of numbers from the number to zero.
+Input: 3
+Output:	0, 1, 2, 3
+The program takes numbers that have the number zero as one or more characters from the returned range of numbers and replaces it with "Beep!"	Input 4
+output "Beep!", 1, 2, 3, 4
+The program takes numbers that have the number one as one or more characters from the returned range of numbers and replaces it with "Boop!"
+Input 5
+Output "Beep!", "Boop!", 2, 3, 4, 5
+The program takes numbers that are divisible by 3 and replaces them with "I'm sorry, Dave. I'm afraid I can't do that."
+Input 3
+Output "Beep!", "Boop!", 2, "I'm sorry, Dave. I'm afraid I can't do that."
 
 
 
