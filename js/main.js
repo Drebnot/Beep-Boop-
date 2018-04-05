@@ -4,8 +4,16 @@ function bunchaNumbers(number) {
     arrayNumbers.push(i.toString());
 
   }
-
+  return arrayNumbers;
 }
+arrayNumbers.forEach(function(string){
+  var numberedString = parseINt(string);
+  var splitNumberedString = string.split("");
+})
+
+
+
+
 
 $(document).ready(function() {
   $("form#beep-boop").submit(function(event) {
