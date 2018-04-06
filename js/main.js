@@ -1,5 +1,6 @@
+var arrayNumbers = [];
 function bunchaNumbers(number) {
-  var arrayNumbers = [];
+  arrayNumbers = [];
   for (var i = 0; i <= number; i++) {
     arrayNumbers.push(i.toString());
 
@@ -8,13 +9,8 @@ function bunchaNumbers(number) {
 }
 arrayNumbers.forEach(function(string){
   var numberedString = parseINt(string);
-  var splitNumberedString = string.split("");
+  var splitNumberedString = string.split("")
 })
-
-
-
-
-
 $(document).ready(function() {
   $("form#beep-boop").submit(function(event) {
     event.preventDefault();
