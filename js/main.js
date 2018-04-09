@@ -21,7 +21,6 @@ function bunchaNumbers (number) {
   return arrayNumbers;
 }
 
-
 $(document).ready(function() {
   $("form#beep-boop").submit(function(event) {
     event.preventDefault();
